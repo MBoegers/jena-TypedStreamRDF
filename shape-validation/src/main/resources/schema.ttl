@@ -1,0 +1,22 @@
+PREFIX ex: <http://example.com/ns#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+ex:Person rdf:type rdfs:Class .
+
+ex:firstName rdf:type rdfs:Property;
+    rdfs:range ex:Person;
+    rdfs:domain xsd:string .
+
+ex:lastName rdf:type rdfs:Property;
+    rdfs:range ex:Person;
+    rdfs:domain xsd:string .
+
+ex:nickName rdf:type rdfs:Property;
+    rdfs:range ex:Person;
+    rdfs:domain xsd:string .
+
+ex:age rdf:type rdfs:Property;
+    rdfs:range ex:Person;
+    rdfs:domain xsd:integer .

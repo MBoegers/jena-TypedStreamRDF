@@ -11,5 +11,15 @@
 
     <artifactId>shape-validation</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.jena</groupId>
+            <artifactId>jena-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.jena</groupId>
+            <artifactId>jena-shacl</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
