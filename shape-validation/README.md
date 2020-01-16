@@ -54,6 +54,8 @@ To archive that we define the SHACL property **sh:minCount** and **sh:maxCount**
 The shapes can be seen [here](src/main/resources/shapes.ttl)
 
 ## Validation with Apache Jena
+Sorurces see [ValidateRDFWithSHACL.java](src/main/java/de/boeg/jena/shex/ValidateRDFWithSHACL.java).
+
 First of all we need to load the **data.ttl** and **shapes.ttl** into a Graph, as seen in lines 21 - 27
 
 Then we parse the shapes graph into a Shapes object instance, see line 29.
