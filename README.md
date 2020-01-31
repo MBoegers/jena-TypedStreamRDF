@@ -3,8 +3,8 @@ This are some examples which I collected/written down to easily demonstrate my i
 
 ## Read and Type RDF Data
 Shows how to extend a RDFStream to read typed RDF Data with a RDF-Schema.
-See [here](typed-read/README.md)
+See [here](typed-read)
 
 ## Shape Validation
 Shows how easy RDF data can be validated.
-See [here](shape-validation/README.md)
+See [here](shape-validation)
