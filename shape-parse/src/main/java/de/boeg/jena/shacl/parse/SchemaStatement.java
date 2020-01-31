@@ -1,7 +1,6 @@
 package de.boeg.jena.shacl.parse;
 
 import org.apache.jena.query.QuerySolution;
-import org.apache.jena.rdf.model.RDFNode;
 
 public class SchemaStatement {
 
@@ -50,25 +49,5 @@ public class SchemaStatement {
 
     public String getClazz() {
         return clazz;
-    }
-
-    public String getProperty() {
-        return property;
-    }
-
-    public String getMinCard() {
-        return minCard;
-    }
-
-    public String getMaxCard() {
-        return maxCard;
-    }
-
-    public String getRange() {
-        return range;
-    }
-
-    public String getDatatype() {
-        return datatype;
     }
 }
