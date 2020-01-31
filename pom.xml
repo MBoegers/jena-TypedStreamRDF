@@ -29,7 +29,7 @@
         </plugins>
     </build>
     <modules>
-        <module>jena-typed-stream</module>
+        <module>typed-read</module>
         <module>shape-validation</module>
     </modules>
 
