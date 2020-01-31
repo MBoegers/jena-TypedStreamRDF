@@ -1,4 +1,4 @@
-package de.boeg.jena.shex;
+package de.boeg.jena.shacl;
 
 import org.apache.jena.graph.Graph;
 import org.apache.jena.graph.Node;
