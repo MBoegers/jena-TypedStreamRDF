@@ -8,3 +8,7 @@ See [here](typed-read)
 ## Shape Validation
 Shows how easy RDF data can be validated.
 See [here](shape-validation)
+
+## Shape Parsing
+Shows how ENTSO-E CGMES files can be parsed to SHACL
+See [here](shape-parse)
