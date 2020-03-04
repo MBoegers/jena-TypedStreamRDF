@@ -6,9 +6,9 @@ Shows how to extend a RDFStream to read typed RDF Data with a RDF-Schema.
 See [here](typed-read)
 
 ## Shape Validation
-Shows how easy RDF data can be validated.
+Shows how easy RDF data can be validated with Shape Constraint Language (SHACL).
 See [here](shape-validation)
 
 ## Shape Parsing
-Shows how ENTSO-E CGMES files can be parsed to SHACL
+Shows how to parse Common Grid Exchange Standard (CGMES) schema files to Shape Constraint Language (SHACL) files.
 See [here](shape-parse)
