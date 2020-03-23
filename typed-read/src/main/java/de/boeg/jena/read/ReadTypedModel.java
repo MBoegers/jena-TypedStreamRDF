@@ -19,7 +19,7 @@ import java.util.Map;
 public class ReadTypedModel {
 
     public static void main(String[] args) {
-        Path dataFile = Paths.get(""); // set this to you input
+        Path dataFile = Paths.get(""); // set this to your input
 
         Map<Property, XSDDatatype> typeMap = new HashMap<>(); // put all mappings property -> XSDDatatype via typMap.put(property, dtype)
         String baseURL = ""; // set this to youe base
